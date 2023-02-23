@@ -7,8 +7,8 @@
    $ob1 = ob_get_contents();
    echo "Tutorials Point1";
    $ob2 = ob_get_contents();
-   //222
+//2
    ob_end_clean();
    var_dump($ob1, $ob2);
 ?>
-//333
+//3
